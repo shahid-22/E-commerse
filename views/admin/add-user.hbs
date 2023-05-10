@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 mt-3">
+            <h2 class="fw-bold">ADD User</h2>
+            <form action="/admin/add-user" style="margin-top: 2em;" method="post" enctype="multipart/form-data">
+                <div class="mb-3">
+                  <label for="name" class="form-label">user name</label>
+                  <input type="text" class="form-control" name="name" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">email</label>
+                  <input type="text" class="form-control" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="text" class="form-control" name="password">
+                </div>
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
